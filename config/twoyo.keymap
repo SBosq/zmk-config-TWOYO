@@ -19,7 +19,7 @@
 
                 default_layer {
 // -----------------------------------------------------------------------------------------
-// |  ESC |  Q  |  W  |  E  |  R  |  T  |   |  Y  |  U   |  I  |  O  |  P  | DELETE |
+// |  ESC |  Q  |  W  |  E  |  R  |  T  |   |  Y  |  U   |  I  |  O  |  P  | DEL |
 // | TAB  |  A  |  S  |  D  |  F  |  G  |    |  H  |  J   |  K  |  L  |   ENTER   |
 // | SHFT |  Z  |  X  |  C  |  V  |  B  |     |  N  |  M   |  ,  |  .  |  LOWER   |
 // | CTL | GUI | ALT |  | LT(RAISE,SPC) |        | BKSP |       | ALT | GUI  | CTL |
