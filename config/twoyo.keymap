@@ -47,13 +47,13 @@
                 raise_layer {
 // -----------------------------------------------------------------------------------------
 // | GRV |  1  |  2  |  3  |  4 |  5    |     |  6  |  7  |  8  |  9  |  0  |      |
-// |     | LFT | DWN | UP   | RGT |  -  |     |  [  |  ]  |  '  |  ;  |     |
-// |     |     |     |     |     |   =  |     |  \  |  /  |     |     |     | 
+// |     |     | UP  |     |    |  -  |     |  [  |  ]  |  '  |  ;  |     |
+// |     | LFT | DWN | RGT |     |   =  |     |  \  |  /  |     |     |     | 
 // |     |     |     |                  |     |           |     |     |     |
                         bindings = <
    &kp GRAVE  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5   &kp N6 &kp N7  &kp N8 &kp N9 &kp N0 &trans
-   &trans &kp LEFT  &kp DOWN  &kp UP    &kp RIGHT  &kp MINUS      &kp LBKT &kp RBKT &kp SQT &kp SEMI  &trans 
-   &trans &none    &none  &none    &none    &kp EQUAL      &kp BSLH    &kp FSLH    &trans  &trans &trans
+   &trans &none  &kp UP  &none    &none  &kp MINUS      &kp LBKT &kp RBKT &kp SQT &kp SEMI  &trans 
+   &trans &kp LEFT    &kp DOWN  &kp RIGHT    &none    &kp EQUAL      &kp BSLH    &kp FSLH    &trans  &trans &trans
    &trans &trans &trans                     &trans          &trans              &trans &trans &trans
                         >;
                 };
