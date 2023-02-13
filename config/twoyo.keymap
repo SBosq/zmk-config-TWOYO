@@ -53,8 +53,8 @@
                         bindings = <
    &kp GRAVE  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5   &kp N6 &kp N7  &kp N8 &kp N9 &kp N0 &trans
    &trans &none  &kp UP  &none    &none  &kp MINUS      &kp LBKT &kp RBKT &kp SQT &kp SEMI  &trans 
-   &trans &kp LEFT    &kp DOWN  &kp RIGHT    &none    &kp EQUAL      &kp BSLH    &kp FSLH    &C_PP  &C_VOLUME_UP &trans
-   &trans &trans &trans                     &trans          &trans              &C_PREVIOUS &C_VOLUME_DOWN &C_NEXT
+   &trans &kp LEFT    &kp DOWN  &kp RIGHT    &none    &kp EQUAL      &kp BSLH    &kp FSLH    &kp C_PLAY_PAUSE  &kp C_VOLUME_UP &trans
+   &trans &trans &trans                     &trans          &trans              &kp C_PREVIOUS &kp C_VOLUME_DOWN &kp C_NEXT
                         >;
                 };
         };
